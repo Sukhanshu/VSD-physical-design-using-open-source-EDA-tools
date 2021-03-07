@@ -6,7 +6,7 @@
 4. Pre-layout timing analysis and importance of good clock tree
 5. Final steps for RTL2GDS
 
-The open source tools that are involved in this workshop are as follows
+### The open source tools that are involved in this workshop are as follows
 
 Yosys – for Synthesis, 
 Graywolf – for Placement, 
@@ -16,7 +16,9 @@ Magic – for Layout and Floorplanning,
 Qflow – RTL2GDS integration, 
 OpenSTA & Opentimer -Pre-layout and Post-layout Static timing analysis
 
+##DAY 1
 
+1.Click on VSD IAT, Go to "Lab Instances". Then under "Links", click on the "link" icon. Click bottom left, System tools > LXTerminal. 2.Now type the command "yosys". What do you see next?
 ![2021-03-04 (2)__01](https://user-images.githubusercontent.com/71768466/110245092-e25d2600-7f87-11eb-96e2-213f538528ac.png)
 
 ![2021-03-04 (3)__01](https://user-images.githubusercontent.com/71768466/110245096-e6894380-7f87-11eb-9c6c-d2400af7f24e.png)
