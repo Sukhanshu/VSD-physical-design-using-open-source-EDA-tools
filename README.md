@@ -16,22 +16,22 @@ Magic – for Layout and Floorplanning,
 Qflow – RTL2GDS integration, 
 OpenSTA & Opentimer -Pre-layout and Post-layout Static timing analysis
 
-##DAY 1
-###D1SK4 - MCQ3
+### DAY1
+### D1SK4 - MCQ3
 
 1.Click on VSD IAT, Go to "Lab Instances". Then under "Links", click on the "link" icon. Click bottom left, System tools > LXTerminal. 2.Now type the command "yosys". What do you see next?
 ![05b8e0b9-ef22-4b2e-8a2f-b2db003f9fb8](https://user-images.githubusercontent.com/71768466/110246150-73ce9700-7f8c-11eb-929e-0980ff330a13.jpg)
 
 
-D1SK4 - MCQ4
+### D1SK4 - MCQ4
 
 *which sta*
 
-D1SK4 - MCQ5
+### D1SK4 - MCQ5
 
 *git clone https://github.com/kunalg123/vsdflow.git*
 
-D1SK4 - MCQ6
+### D1SK4 - MCQ6
 *cd vsdflow
 ./vsdflow spi_slave_design_details.csv
 ls -ltr outdir_spi_slave/*
@@ -41,7 +41,7 @@ Now type below command
 *ls -ltr outdir_spi_slave | wc*
 
 
-D1SK4 - MCQ7
+### D1SK4 - MCQ7
 
 *cd outdir_spi_slave
 qflow display spi_slave*
@@ -51,7 +51,7 @@ On "tkcon" window, type "box".
 
 
 
-D1SK4 - MCQ8
+### D1SK4 - MCQ8
 *cd
 cd vsdflow
 mkdir my_picorv32
@@ -71,7 +71,7 @@ Verilog module : picorv32
 
 
 
-D2SK4 - MCQ5
+### D2SK4 - MCQ5
 *cd
 cd vsdflow/my_picorv32
 qflow display picorv32 &*
@@ -88,14 +88,14 @@ This will select the whole layout Now in tkcon window, type below command
 
 
 
-D3SK1 - MCQ5,6,7
+### D3SK1 - MCQ5,6,7
 *cd
 git clone https://github.com/kunalg123/ngspice_labs.git
 cd ngspice_labs
 cat inv.spice*
 
 
-D3SK1 - MCQ8
+### D3SK1 - MCQ8
 
 *cd
 cd ngspice_labs
@@ -112,7 +112,7 @@ plot out in*
 
 
 
-D3SK1 - MCQ10
+### D3SK1 - MCQ10
 Go to labs, open terminal
 
 Type below command
@@ -122,7 +122,7 @@ Type below command
 
 
 
-D3SK2 - MCQ1
+### D3SK2 - MCQ1
 Go to labs, type below commands
 
 *cd
@@ -135,7 +135,7 @@ ngspice 1 -> plot out 1.25*
 
 
 
-D3SK3 - MCQ3
+### D3SK3 - MCQ3
 
 Go to labs, open terminal
 
@@ -153,7 +153,7 @@ Go to tkcon window and type below command
 
 
 
-D3SK3 - MCQ4
+### D3SK3 - MCQ4
 Go to labs, open terminal
 
 Type below command
@@ -164,7 +164,7 @@ magic -T min2.tech fn_postlayout.mag &*
 
 
 
-D4SK1 - MCQ6
+### D4SK1 - MCQ6
 
 *cd
 git clone https://github.com/kunalg123/ngspice_labs
@@ -172,7 +172,7 @@ cd ngspice_labs
 cat inv_tran.spice*
 
 
-D4SK1 - MCQ7
+### D4SK1 - MCQ7
 Go to Day 4 (When you start Day 4 labs, system will enable Day 2 labs for you. Click on Desktop icon)
 
 Open terminal and Type below commands
@@ -184,7 +184,7 @@ ngspice inv_tran.spice*
 
 
 
-D4SK2 - MCQ6
+### D4SK2 - MCQ6
 
 Go to labs Open below file using "leafpad" or "less" or "vim" - whichever you are comfortable with)
 
@@ -194,7 +194,7 @@ Go to labs Open below file using "leafpad" or "less" or "vim" - whichever you ar
 
 
 
-D4SK2 - MCQ11
+### D4SK2 - MCQ11
 Go to labs
 
 Type below command
@@ -224,7 +224,7 @@ Now type below command
 *sta prelayout_sta.conf*
 
 
-D4SK4 - MCQ2
+### D4SK4 - MCQ2
 Perform all steps in D4SK2 - MCQ11
 
 You are now at below "sta" terminal
@@ -238,7 +238,7 @@ report_checks*
 
 
 
-D4SK4 - MCQ5
+### D4SK4 - MCQ5
 Perform all steps in D4SK4 - MCQ3
 
 Type below command
@@ -248,7 +248,7 @@ Type below command
 
 
 
-D5SK2 - MCQ1
+### D5SK2 - MCQ1
 Go to Day 5 labs
 
 Open terminal
@@ -264,7 +264,7 @@ leafpad log/sta.log*
 
 
 
-D5SK2 - MCQ2
+### D5SK2 - MCQ2
 
 *log/post_sta.log*
 
