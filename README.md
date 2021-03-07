@@ -16,7 +16,7 @@ Magic – for Layout and Floorplanning,
 Qflow – RTL2GDS integration, 
 OpenSTA & Opentimer -Pre-layout and Post-layout Static timing analysis
 
-### DAY1
+# DAY1
 ### D1SK4 - MCQ3
 
 1.Click on VSD IAT, Go to "Lab Instances". Then under "Links", click on the "link" icon. Click bottom left, System tools > LXTerminal. 2.Now type the command "yosys". What do you see next?
