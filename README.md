@@ -1,4 +1,20 @@
 # Beginner Physical design using open-source EDA Tools
+## Contents:
+1. Study and review various components of RISC-V based picoSoC
+2. Chip planning strategies and introduction to foundry library cells
+3. Design and characterize one library cell using Magic Layout tool and ngspice
+4. Pre-layout timing analysis and importance of good clock tree
+5. Final steps for RTL2GDS
+
+The open source tools that are involved in this workshop are as follows
+
+Yosys – for Synthesis
+Graywolf – for Placement
+Qrouter – for Routing
+Netgen – for LVS
+Magic – for Layout and Floorplanning
+Qflow – RTL2GDS integration
+OpenSTA & Opentimer -Pre-layout and Post-layout Static timing analysis
 
 
 ![2021-03-04 (2)__01](https://user-images.githubusercontent.com/71768466/110245092-e25d2600-7f87-11eb-96e2-213f538528ac.png)
