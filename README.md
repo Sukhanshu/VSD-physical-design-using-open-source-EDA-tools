@@ -8,12 +8,12 @@
 
 The open source tools that are involved in this workshop are as follows
 
-Yosys – for Synthesis
-Graywolf – for Placement
-Qrouter – for Routing
-Netgen – for LVS
-Magic – for Layout and Floorplanning
-Qflow – RTL2GDS integration
+Yosys – for Synthesis, 
+Graywolf – for Placement, 
+Qrouter – for Routing, 
+Netgen – for LVS, 
+Magic – for Layout and Floorplanning, 
+Qflow – RTL2GDS integration, 
 OpenSTA & Opentimer -Pre-layout and Post-layout Static timing analysis
 
 
