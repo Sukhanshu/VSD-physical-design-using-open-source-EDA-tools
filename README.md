@@ -19,6 +19,9 @@ OpenSTA & Opentimer -Pre-layout and Post-layout Static timing analysis
 ##DAY 1
 
 1.Click on VSD IAT, Go to "Lab Instances". Then under "Links", click on the "link" icon. Click bottom left, System tools > LXTerminal. 2.Now type the command "yosys". What do you see next?
+![05b8e0b9-ef22-4b2e-8a2f-b2db003f9fb8](https://user-images.githubusercontent.com/71768466/110246150-73ce9700-7f8c-11eb-929e-0980ff330a13.jpg)
+
+
 
 D1SK4 - MCQ5
 *git clone https://github.com/kunalg123/vsdflow.git*
