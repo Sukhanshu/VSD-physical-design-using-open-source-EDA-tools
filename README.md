@@ -36,6 +36,14 @@ ls -ltr outdir_spi_slave/*
 qflow display spi_slave*
 ![2021-03-04 (4)__01](https://user-images.githubusercontent.com/71768466/110245099-e9843400-7f87-11eb-92ee-1bff620c3945.png)
 
+
+Click on Set Stop
+![2021-03-04 (5)__01](https://user-images.githubusercontent.com/71768466/110245103-ebe68e00-7f87-11eb-80e6-394f2e8e833c.png)
+
+![2021-03-04 (6)__01](https://user-images.githubusercontent.com/71768466/110245107-ef7a1500-7f87-11eb-9f72-04836b15196c.png)
+
+![2021-03-04 (7)__01](https://user-images.githubusercontent.com/71768466/110245110-f143d880-7f87-11eb-869e-65c524efedaa.png)
+
 D1SK4 - MCQ8
 *cd
 cd vsdflow
@@ -49,12 +57,6 @@ Select below options in gui
 Technology = osu018
 Verilog source file : picorv32.v
 Verilog module : picorv32
-Click on Set Stop
-![2021-03-04 (5)__01](https://user-images.githubusercontent.com/71768466/110245103-ebe68e00-7f87-11eb-80e6-394f2e8e833c.png)
-
-![2021-03-04 (6)__01](https://user-images.githubusercontent.com/71768466/110245107-ef7a1500-7f87-11eb-9f72-04836b15196c.png)
-
-![2021-03-04 (7)__01](https://user-images.githubusercontent.com/71768466/110245110-f143d880-7f87-11eb-869e-65c524efedaa.png)
 
 ![2021-03-04 (8)__01](https://user-images.githubusercontent.com/71768466/110245115-f43ec900-7f87-11eb-8df2-edf87604e878.png)
 
