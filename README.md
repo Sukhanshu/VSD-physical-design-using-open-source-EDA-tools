@@ -26,19 +26,28 @@ OpenSTA & Opentimer -Pre-layout and Post-layout Static timing analysis
 ### D1SK4 - MCQ4
 
 *which sta*
+![2021-03-04 (1)](https://user-images.githubusercontent.com/71768466/110247538-bc894e80-7f92-11eb-8283-b6f1fbc19caa.png)
+
 
 ### D1SK4 - MCQ5
 
 *git clone https://github.com/kunalg123/vsdflow.git*
 
+
 ### D1SK4 - MCQ6
 *cd vsdflow
 ./vsdflow spi_slave_design_details.csv
 ls -ltr outdir_spi_slave/*
+![2021-03-04 (2)__01](https://user-images.githubusercontent.com/71768466/110247598-03774400-7f93-11eb-96f6-b65a5b57b478.png)
+
 
 Now type below command
 
 *ls -ltr outdir_spi_slave | wc*
+
+![2021-03-04 (4)__01](https://user-images.githubusercontent.com/71768466/110247621-20137c00-7f93-11eb-9e8e-1457e08054d0.png)
+
+
 
 
 ### D1SK4 - MCQ7
@@ -48,7 +57,12 @@ qflow display spi_slave*
 It will open 2 windows "layout1" and "tkcon"
 
 On "tkcon" window, type "box".
+![2021-03-04 (5)__01](https://user-images.githubusercontent.com/71768466/110247673-4fc28400-7f93-11eb-962d-d30dc08faecf.png)
 
+![2021-03-04 (6)__01](https://user-images.githubusercontent.com/71768466/110247709-9d3ef100-7f93-11eb-95d8-cc9a52c90660.png)
+
+
+![2021-03-04 (7)__01](https://user-images.githubusercontent.com/71768466/110247705-957f4c80-7f93-11eb-8f34-5d6ee5a32b3a.png)
 
 
 ### D1SK4 - MCQ8
@@ -68,6 +82,12 @@ Verilog source file : picorv32.v
 
 Verilog module : picorv32
 
+![2021-03-04 (8)__01](https://user-images.githubusercontent.com/71768466/110247725-ae87fd80-7f93-11eb-9095-967146e4dd56.png)
+
+![2021-03-04 (9)__01](https://user-images.githubusercontent.com/71768466/110247736-bcd61980-7f93-11eb-9f53-aac3284a2283.png)
+
+![2021-03-04 (14)__01](https://user-images.githubusercontent.com/71768466/110247793-fb6bd400-7f93-11eb-8396-7b64e56d6c3f.png)
+
 
 
 
@@ -86,6 +106,9 @@ This will select the whole layout Now in tkcon window, type below command
 
 *box*
 
+![2021-03-04 (21)__01](https://user-images.githubusercontent.com/71768466/110247837-3f5ed900-7f94-11eb-896c-27f4bde56d74.png)
+![2021-03-04 (22)__01](https://user-images.githubusercontent.com/71768466/110247877-6ae1c380-7f94-11eb-96bb-a5264fac3018.png)
+
 
 
 ### D3SK1 - MCQ5,6,7
@@ -93,6 +116,14 @@ This will select the whole layout Now in tkcon window, type below command
 git clone https://github.com/kunalg123/ngspice_labs.git
 cd ngspice_labs
 cat inv.spice*
+![2021-03-05__01](https://user-images.githubusercontent.com/71768466/110248075-57832800-7f95-11eb-98b0-b28ef8d82489.png)
+
+![2021-03-05 (2)__01](https://user-images.githubusercontent.com/71768466/110247954-bc8a4e00-7f94-11eb-8d1f-393975579c13.png)
+
+![2021-03-05 (3)__01__01__01](https://user-images.githubusercontent.com/71768466/110247957-be541180-7f94-11eb-9228-fc4779c7cded.png)
+
+![2021-03-05 (4)__01](https://user-images.githubusercontent.com/71768466/110247969-d166e180-7f94-11eb-8c90-810d410b90a3.png)
+
 
 
 ### D3SK1 - MCQ8
@@ -109,6 +140,7 @@ On the above ngspice terminal, type below commands
 setplot dc1
 plot out in*
 
+![2021-03-05 (5)__01](https://user-images.githubusercontent.com/71768466/110247975-d7f55900-7f94-11eb-90ed-de2a64732c1e.png)
 
 
 
@@ -118,6 +150,13 @@ Go to labs, open terminal
 Type below command
 
 *leafpad inv.spice*
+
+![2021-03-05 (7)__01](https://user-images.githubusercontent.com/71768466/110247998-f8bdae80-7f94-11eb-97ee-ccc495e0d25d.png)
+
+### D3SK1 - MCQ11
+![2021-03-05 (11)__01](https://user-images.githubusercontent.com/71768466/110248038-2f93c480-7f95-11eb-8d99-37c09480a986.png)
+
+![2021-03-05 (12)__01](https://user-images.githubusercontent.com/71768466/110248043-30c4f180-7f95-11eb-8a21-cf899e00c398.png)
 
 
 
@@ -144,6 +183,9 @@ Type below commands
 *cd
 cd ngspice_labs
 magic -T min2.tech*
+
+![2021-03-06 (2)__01](https://user-images.githubusercontent.com/71768466/110248104-784b7d80-7f95-11eb-9612-8be89149f73f.png)
+
 This will open magic layout window and tkcon window
 
 Go to tkcon window and type below command
@@ -171,8 +213,13 @@ git clone https://github.com/kunalg123/ngspice_labs
 cd ngspice_labs
 cat inv_tran.spice*
 
+![2021-03-06 (4)__01](https://user-images.githubusercontent.com/71768466/110248148-a761ef00-7f95-11eb-9073-6a95eb93cf5e.png)
 
-### D4SK1 - MCQ7
+![2021-03-06 (5)__01](https://user-images.githubusercontent.com/71768466/110248160-b34db100-7f95-11eb-9e6c-8c6029d54592.png)
+
+
+
+### D4SK1 - MCQ7,8
 Go to Day 4 (When you start Day 4 labs, system will enable Day 2 labs for you. Click on Desktop icon)
 
 Open terminal and Type below commands
@@ -182,14 +229,21 @@ cd ngspice_labs
 cat inv_tran.spice
 ngspice inv_tran.spice*
 
+![2021-03-06 (6)__01](https://user-images.githubusercontent.com/71768466/110248174-c82a4480-7f95-11eb-9fc8-f8c289cdb49d.png)
+
+![2021-03-06 (7)__01](https://user-images.githubusercontent.com/71768466/110248202-e728d680-7f95-11eb-8231-5599626514dc.png)
 
 
-### D4SK2 - MCQ6
+
+### D4SK2 - MCQ6,7,8,9,10
 
 Go to labs Open below file using "leafpad" or "less" or "vim" - whichever you are comfortable with)
 
 */usr/local/share/qflow/tech/osu018/osu018_stdcells.lib*
 
+![2021-03-06 (9)__01](https://user-images.githubusercontent.com/71768466/110248216-00318780-7f96-11eb-9114-2872e59c92a7.png)
+
+![2021-03-06 (12)__01](https://user-images.githubusercontent.com/71768466/110248362-ad0c0480-7f96-11eb-9d77-8ca8077531dd.png)
 
 
 
@@ -222,6 +276,17 @@ report_checks*
 Now type below command
 
 *sta prelayout_sta.conf*
+
+![2021-03-06 (13)__01](https://user-images.githubusercontent.com/71768466/110248385-ca40d300-7f96-11eb-9b18-47e72b3a18d4.png)
+
+![2021-03-06 (14)__01](https://user-images.githubusercontent.com/71768466/110248392-d462d180-7f96-11eb-9db0-fef4ae43fc43.png)
+
+
+
+
+### D4SK2 - MCQ13
+
+![2021-03-06 (11)__01](https://user-images.githubusercontent.com/71768466/110248352-9bc2f800-7f96-11eb-9a6d-b55285e0288a.png)
 
 
 ### D4SK4 - MCQ2
