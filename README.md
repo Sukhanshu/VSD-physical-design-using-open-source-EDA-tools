@@ -1,3 +1,4 @@
+![2021-03-07__01](https://user-images.githubusercontent.com/71768466/110286869-9fdd2d00-800b-11eb-8a2f-d1cecacf921b.png)
 # Beginner Physical design using open-source EDA Tools
 ## Contents:
 1. Study and review various components of RISC-V based picoSoC
@@ -88,6 +89,8 @@ Verilog module : picorv32
 
 ![2021-03-04 (14)__01](https://user-images.githubusercontent.com/71768466/110247793-fb6bd400-7f93-11eb-8396-7b64e56d6c3f.png)
 
+![2021-03-07__01](https://user-images.githubusercontent.com/71768466/110286889-a66ba480-800b-11eb-9478-3c3e3db64c0a.png)
+
 
 
 
@@ -171,6 +174,7 @@ ngspice 1 -> run
 ngspice 1 -> setplot tran1
 ngspice 1 -> plot out 1.25*
 
+![2021-03-05 (12)__01](https://user-images.githubusercontent.com/71768466/110287062-ef235d80-800b-11eb-8b47-27c167d33fa5.png)
 
 
 
@@ -204,6 +208,7 @@ Type below command
 cd ngspice_labs
 magic -T min2.tech fn_postlayout.mag &*
 
+![2021-03-07__01](https://user-images.githubusercontent.com/71768466/110287165-111ce000-800c-11eb-9f79-7a6a8aaa1584.png)
 
 
 ### D4SK1 - MCQ6
@@ -300,6 +305,8 @@ Type below command in above terminal
 *set_propagated_clock [all_clocks]
 report_checks*
 
+![D5SK2](https://user-images.githubusercontent.com/71768466/110287621-d7000e00-800c-11eb-9d90-845f555817aa.PNG)
+
 
 
 
@@ -310,6 +317,9 @@ Type below command
 
 *report_checks -path_delay min -digits 4*
 
+![111111](https://user-images.githubusercontent.com/71768466/110287992-5ab9fa80-800d-11eb-929c-3cc579e7ffcc.png)
+
+![112222](https://user-images.githubusercontent.com/71768466/110288144-93f26a80-800d-11eb-832c-e0319a8c67dc.png)
 
 
 
@@ -327,12 +337,14 @@ qflow sta picorv32
 qflow backanno picorv32
 leafpad log/sta.log*
 
+![2021-03-07 (2)__01](https://user-images.githubusercontent.com/71768466/110288202-a79dd100-800d-11eb-8db7-fbe8d41a8c11.png)
 
 
 ### D5SK2 - MCQ2
 
 *log/post_sta.log*
 
+![Capture](https://user-images.githubusercontent.com/71768466/110288451-06634a80-800e-11eb-8af9-043538bf6219.PNG)
 
 
 
