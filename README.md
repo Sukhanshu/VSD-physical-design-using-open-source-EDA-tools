@@ -19,56 +19,45 @@ OpenSTA & Opentimer -Pre-layout and Post-layout Static timing analysis
 # DAY1 Study and review various components of RISC-V based picoSoC
 
 ***SKILL 1***
-Introduction to QFN-48 Package, chip,pads,core,die and IP's
+Introduction to QFN-48 Package, chip,pads,core,die and IP's,
 ***SKILL 2***
-Introduction to RISC-V
+Introduction to RISC-V,
 From Software applications to hardware
 ***SKILL 3***
-Pre-requisites and RISC-V, picorv32 and picoSoC review
+Pre-requisites and RISC-V, picorv32 and picoSoC review,
 Raven SoC
 ***SKILL 4***
 Installation of basic EDA tools
 # DAY 2 Chip planning strategies and introduction to foundry library cells
 ***SKILL 1***
-utilization factor and aspect ration
-concept of pre-placed cells
-De-coupling capacitors
-power planning
-pin placement
-pin arrangement
+utilization factor and aspect ration,
+concept of pre-placed cells,
+De-coupling capacitors,
+power planning,
+pin placement,
+pin arrangement,
 floorplanning
 ***SKILL 2***
-netlist binding and initial place design
-estimated wire length and capacitance
-final placement optimization
+netlist binding and initial place design,
+estimated wire length and capacitance,
+final placement optimization,
 libraries and characterization
 ***SKILL 3***
-inouts for cell design
-circuit design
-layout design
+inouts for cell design,
+circuit design,
+layout design,
 characterization flow
 ***SKILL 4***
-timing threshold
+timing threshold,
 propagation delay and transition time
 
 # DAY 3 Design and characterize one library cell using Magic Layout tool and ngspice
-***SKILL 1***
-***SKILL ***
-***SKILL 3***
-***SKILL 4***
+DC analysis of inverter, transient analysis of inv, pulse width calculation, rise time , fall time calculation, LAyout formation on magic
 
 # DAY 4 Pre-layout timing analysis and importance of good clock tree
-***SKILL 1***
-***SKILL 2***
-***SKILL 3***
-***SKILL 4***
-
+Setup timing analysis, hold timing analysis, routing, Lee's algorithm, cross talk
 # DAY 5 Final steps for RTL2GDS
-***SKILL 1***
-***SKILL 2***
-***SKILL 3***
-***SKILL 4***
-
+Design rule check, paracitic extraction
 
 ### D1SK4 - MCQ3
 
@@ -400,7 +389,9 @@ leafpad log/sta.log*
 ![post_sta](https://user-images.githubusercontent.com/71768466/110289184-13346e00-800f-11eb-88ad-b2b5bd066918.PNG)
 
 
-
+### Acknowledgement
+@Kunalg123 
+ Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
 
 
 
