@@ -1,4 +1,4 @@
-# Beginner Physical design using open-source EDA Tools
+# VSD- Physical design using open-source EDA Tools
 ## Contents:
 1. Study and review various components of RISC-V based picoSoC
 2. Chip planning strategies and introduction to foundry library cells
