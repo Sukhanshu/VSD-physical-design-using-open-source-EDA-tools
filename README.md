@@ -390,7 +390,7 @@ leafpad log/sta.log*
 
 
 ### Acknowledgement
-@Kunalg123 
+@kunalg123 
  Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
 
 
