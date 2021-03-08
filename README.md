@@ -59,24 +59,24 @@ Setup timing analysis, hold timing analysis, routing, Lee's algorithm, cross tal
 # DAY 5 Final steps for RTL2GDS
 Design rule check, paracitic extraction
 
-### D1SK4 - MCQ3
+### LABS
 
 1.Click on VSD IAT, Go to "Lab Instances". Then under "Links", click on the "link" icon. Click bottom left, System tools > LXTerminal. 2.Now type the command "yosys". What do you see next?
 ![05b8e0b9-ef22-4b2e-8a2f-b2db003f9fb8](https://user-images.githubusercontent.com/71768466/110246150-73ce9700-7f8c-11eb-929e-0980ff330a13.jpg)
 
 
-### D1SK4 - MCQ4
+
 
 *which sta*
 ![2021-03-04 (1)](https://user-images.githubusercontent.com/71768466/110247538-bc894e80-7f92-11eb-8283-b6f1fbc19caa.png)
 
 
-### D1SK4 - MCQ5
+
 
 *git clone https://github.com/kunalg123/vsdflow.git*
 
 
-### D1SK4 - MCQ6
+
 *cd vsdflow
 ./vsdflow spi_slave_design_details.csv
 ls -ltr outdir_spi_slave/*
@@ -92,7 +92,7 @@ Now type below command
 
 
 
-### D1SK4 - MCQ7
+
 
 *cd outdir_spi_slave
 qflow display spi_slave*
@@ -107,7 +107,7 @@ On "tkcon" window, type "box".
 ![2021-03-04 (7)__01](https://user-images.githubusercontent.com/71768466/110247705-957f4c80-7f93-11eb-8f34-5d6ee5a32b3a.png)
 
 
-### D1SK4 - MCQ8
+
 *cd
 cd vsdflow
 mkdir my_picorv32
@@ -135,7 +135,7 @@ Verilog module : picorv32
 
 
 
-### D2SK4 - MCQ5
+
 *cd
 cd vsdflow/my_picorv32
 qflow display picorv32 &*
@@ -155,7 +155,6 @@ This will select the whole layout Now in tkcon window, type below command
 
 
 
-### D3SK1 - MCQ5,6,7
 *cd
 git clone https://github.com/kunalg123/ngspice_labs.git
 cd ngspice_labs
@@ -170,7 +169,7 @@ cat inv.spice*
 
 
 
-### D3SK1 - MCQ8
+
 
 *cd
 cd ngspice_labs
@@ -188,7 +187,7 @@ plot out in*
 
 
 
-### D3SK1 - MCQ10
+
 Go to labs, open terminal
 
 Type below command
@@ -197,7 +196,7 @@ Type below command
 
 ![2021-03-05 (7)__01](https://user-images.githubusercontent.com/71768466/110247998-f8bdae80-7f94-11eb-97ee-ccc495e0d25d.png)
 
-### D3SK1 - MCQ11
+
 ![2021-03-05 (11)__01](https://user-images.githubusercontent.com/71768466/110248038-2f93c480-7f95-11eb-8d99-37c09480a986.png)
 
 ![2021-03-05 (12)__01](https://user-images.githubusercontent.com/71768466/110248043-30c4f180-7f95-11eb-8a21-cf899e00c398.png)
@@ -205,7 +204,7 @@ Type below command
 
 
 
-### D3SK2 - MCQ1
+
 Go to labs, type below commands
 
 *cd
@@ -219,7 +218,7 @@ ngspice 1 -> plot out 1.25*
 
 
 
-### D3SK3 - MCQ3
+
 
 Go to labs, open terminal
 
@@ -240,7 +239,7 @@ Go to tkcon window and type below command
 
 
 
-### D3SK3 - MCQ4
+
 Go to labs, open terminal
 
 Type below command
@@ -253,7 +252,6 @@ magic -T min2.tech fn_postlayout.mag &*
 
 
 
-### D4SK1 - MCQ6
 
 *cd
 git clone https://github.com/kunalg123/ngspice_labs
@@ -266,7 +264,7 @@ cat inv_tran.spice*
 
 
 
-### D4SK1 - MCQ7,8
+
 Go to Day 4 (When you start Day 4 labs, system will enable Day 2 labs for you. Click on Desktop icon)
 
 Open terminal and Type below commands
@@ -282,7 +280,6 @@ ngspice inv_tran.spice*
 
 
 
-### D4SK2 - MCQ6,7,8,9,10
 
 Go to labs Open below file using "leafpad" or "less" or "vim" - whichever you are comfortable with)
 
@@ -295,7 +292,7 @@ Go to labs Open below file using "leafpad" or "less" or "vim" - whichever you ar
 
 
 
-### D4SK2 - MCQ11
+
 Go to labs
 
 Type below command
@@ -331,12 +328,11 @@ Now type below command
 
 
 
-### D4SK2 - MCQ13
+
 
 ![2021-03-06 (11)__01](https://user-images.githubusercontent.com/71768466/110248352-9bc2f800-7f96-11eb-9a6d-b55285e0288a.png)
 
 
-### D4SK4 - MCQ2
 Perform all steps in D4SK2 - MCQ11
 
 You are now at below "sta" terminal
@@ -352,7 +348,7 @@ report_checks*
 
 
 
-### D4SK4 - MCQ5
+
 Perform all steps in D4SK4 - MCQ3
 
 Type below command
@@ -365,7 +361,6 @@ Type below command
 
 
 
-### D5SK2 - MCQ1
 Go to Day 5 labs
 
 Open terminal
@@ -382,7 +377,6 @@ leafpad log/sta.log*
 ![2021-03-07 (2)__01](https://user-images.githubusercontent.com/71768466/110288202-a79dd100-800d-11eb-8db7-fbe8d41a8c11.png)
 
 
-### D5SK2 - MCQ2
 
 *log/post_sta.log*
 
