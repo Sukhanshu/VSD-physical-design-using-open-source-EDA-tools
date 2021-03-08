@@ -16,7 +16,60 @@ Magic – for Layout and Floorplanning,
 Qflow – RTL2GDS integration, 
 OpenSTA & Opentimer -Pre-layout and Post-layout Static timing analysis
 
-# DAY1
+# DAY1 Study and review various components of RISC-V based picoSoC
+
+***SKILL 1***
+Introduction to QFN-48 Package, chip,pads,core,die and IP's
+***SKILL 2***
+Introduction to RISC-V
+From Software applications to hardware
+***SKILL 3***
+Pre-requisites and RISC-V, picorv32 and picoSoC review
+Raven SoC
+***SKILL 4***
+Installation of basic EDA tools
+# DAY 2 Chip planning strategies and introduction to foundry library cells
+***SKILL 1***
+utilization factor and aspect ration
+concept of pre-placed cells
+De-coupling capacitors
+power planning
+pin placement
+pin arrangement
+floorplanning
+***SKILL 2***
+netlist binding and initial place design
+estimated wire length and capacitance
+final placement optimization
+libraries and characterization
+***SKILL 3***
+inouts for cell design
+circuit design
+layout design
+characterization flow
+***SKILL 4***
+timing threshold
+propagation delay and transition time
+
+# DAY 3 Design and characterize one library cell using Magic Layout tool and ngspice
+***SKILL 1***
+***SKILL ***
+***SKILL 3***
+***SKILL 4***
+
+# DAY 4 Pre-layout timing analysis and importance of good clock tree
+***SKILL 1***
+***SKILL 2***
+***SKILL 3***
+***SKILL 4***
+
+# DAY 5 Final steps for RTL2GDS
+***SKILL 1***
+***SKILL 2***
+***SKILL 3***
+***SKILL 4***
+
+
 ### D1SK4 - MCQ3
 
 1.Click on VSD IAT, Go to "Lab Instances". Then under "Links", click on the "link" icon. Click bottom left, System tools > LXTerminal. 2.Now type the command "yosys". What do you see next?
@@ -344,7 +397,7 @@ leafpad log/sta.log*
 
 *log/post_sta.log*
 
-![Capture](https://user-images.githubusercontent.com/71768466/110288451-06634a80-800e-11eb-8af9-043538bf6219.PNG)
+![post_sta](https://user-images.githubusercontent.com/71768466/110289184-13346e00-800f-11eb-88ad-b2b5bd066918.PNG)
 
 
 
