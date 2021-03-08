@@ -207,7 +207,8 @@ Type below command
 cd ngspice_labs
 magic -T min2.tech fn_postlayout.mag &*
 
-![2021-03-07__01](https://user-images.githubusercontent.com/71768466/110287165-111ce000-800c-11eb-9f79-7a6a8aaa1584.png)
+![foid](https://user-images.githubusercontent.com/71768466/110288907-b042d700-800e-11eb-8df8-2209ab53a291.PNG)
+
 
 
 ### D4SK1 - MCQ6
