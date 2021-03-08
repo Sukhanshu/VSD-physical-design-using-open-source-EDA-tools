@@ -1,4 +1,3 @@
-![2021-03-07__01](https://user-images.githubusercontent.com/71768466/110286869-9fdd2d00-800b-11eb-8a2f-d1cecacf921b.png)
 # Beginner Physical design using open-source EDA Tools
 ## Contents:
 1. Study and review various components of RISC-V based picoSoC
