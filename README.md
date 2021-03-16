@@ -384,7 +384,10 @@ Type below command
 
 
 
-Go to Day 5 labs
+Day 5 labs : Routing and DRCs - Lee's Maze Algorithm Introduction to SPEF - Different Representations of Parasitics PnR Tutorials
+
+
+Obtain Pre-layout and Post-layout frequencies
 
 Open terminal
 
@@ -404,6 +407,10 @@ leafpad log/sta.log*
 *log/post_sta.log*
 
 ![post_sta](https://user-images.githubusercontent.com/71768466/110289184-13346e00-800f-11eb-88ad-b2b5bd066918.PNG)
+
+
+## Conclusion
+We successfully executed the PD or PnR (Place and Eoute) flow. Obtained VTC of the design, Created the magic layout of design. Performed static timing analysis. 
 
 
 ### Acknowledgement
