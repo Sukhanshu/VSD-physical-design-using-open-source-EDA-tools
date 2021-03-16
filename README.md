@@ -61,6 +61,10 @@ Design rule check, paracitic extraction
 
 ### LABS
 
+For the labs we are using the latest Google-SkyWater 130nm process node
+
+Introduction to QFN-48 package, chips, pads, core, die, IP Introduction to RISC-V Architecture, picorv32 and picoSoC, RAVEN full chip and RAVEN SoC Introduction to open-source EDA Tools
+
 1.Click on VSD IAT, Go to "Lab Instances". Then under "Links", click on the "link" icon. Click bottom left, System tools > LXTerminal. 2.Now type the command "yosys". What do you see next?
 ![05b8e0b9-ef22-4b2e-8a2f-b2db003f9fb8](https://user-images.githubusercontent.com/71768466/110246150-73ce9700-7f8c-11eb-929e-0980ff330a13.jpg)
 
@@ -92,13 +96,14 @@ Now type below command
 
 
 
-
+Calculation of area of layout.
 
 *cd outdir_spi_slave
 qflow display spi_slave*
 It will open 2 windows "layout1" and "tkcon"
 
-On "tkcon" window, type "box".
+On "tkcon" window, type "box"and the area will be displayed in the command window.
+
 ![2021-03-04 (5)__01](https://user-images.githubusercontent.com/71768466/110247673-4fc28400-7f93-11eb-962d-d30dc08faecf.png)
 
 ![2021-03-04 (6)__01](https://user-images.githubusercontent.com/71768466/110247709-9d3ef100-7f93-11eb-95d8-cc9a52c90660.png)
