@@ -140,6 +140,18 @@ Verilog module : picorv32
 
 
 
+Find area of the placed chip
+
+Run the placement stage by setting the necessary options and performing the pin groupings.
+
+Post completion of the placement stage, change to my_picorv32 folder and type the below command: qflow display picorv32 &
+
+This will open layout and tkcon window In the layout window, select whole chip using below steps: Take cursor to bottom left and left-click. Take cursor to top right and right-click. Press Shift+i
+
+This will select the whole layout Now in tkcon window, type "box".
+
+You will get the area of the chip in microns.
+
 
 *cd
 cd vsdflow/my_picorv32
@@ -156,15 +168,19 @@ This will select the whole layout Now in tkcon window, type below command
 *box*
 
 ![2021-03-04 (21)__01](https://user-images.githubusercontent.com/71768466/110247837-3f5ed900-7f94-11eb-896c-27f4bde56d74.png)
+
 ![2021-03-04 (22)__01](https://user-images.githubusercontent.com/71768466/110247877-6ae1c380-7f94-11eb-96bb-a5264fac3018.png)
 
 
+SPICE Deck creation and, static and dynamic simulation for inverter, switching threshold Stick Diagram, Euler's path, abstract layouts Fn dimension derivation, layouts, scripting CMOS Fabrication Process
 
 *cd
 git clone https://github.com/kunalg123/ngspice_labs.git
 cd ngspice_labs
 cat inv.spice*
 ![2021-03-05__01](https://user-images.githubusercontent.com/71768466/110248075-57832800-7f95-11eb-98b0-b28ef8d82489.png)
+
+Obtain the widths of the CMOS transistors
 
 ![2021-03-05 (2)__01](https://user-images.githubusercontent.com/71768466/110247954-bc8a4e00-7f94-11eb-8d1f-393975579c13.png)
 
@@ -173,7 +189,7 @@ cat inv.spice*
 ![2021-03-05 (4)__01](https://user-images.githubusercontent.com/71768466/110247969-d166e180-7f94-11eb-8c90-810d410b90a3.png)
 
 
-
+Obtain DC Transfer characteristics for different transistor widths and find switching threshold
 
 
 *cd
@@ -202,6 +218,8 @@ Type below command
 ![2021-03-05 (7)__01](https://user-images.githubusercontent.com/71768466/110247998-f8bdae80-7f94-11eb-97ee-ccc495e0d25d.png)
 
 
+Obtain Transient analysis and calculate the rise time
+
 ![2021-03-05 (11)__01](https://user-images.githubusercontent.com/71768466/110248038-2f93c480-7f95-11eb-8d99-37c09480a986.png)
 
 ![2021-03-05 (12)__01](https://user-images.githubusercontent.com/71768466/110248043-30c4f180-7f95-11eb-8a21-cf899e00c398.png)
@@ -223,7 +241,7 @@ ngspice 1 -> plot out 1.25*
 
 
 
-
+Obtain Transient analysis and calculate the rise time.
 
 Go to labs, open terminal
 
